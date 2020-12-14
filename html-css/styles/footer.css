@@ -1,0 +1,70 @@
+/*last-nav*/
+
+.last-nav {
+    height: 320px;
+    background-color: #0b1852;
+    color: #cbcbcb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: -4px;
+}
+
+.last-nav>.last-banner img {
+    width: 100px;
+    height: 100%;
+    filter: opacity(70%)
+}
+
+.last-nav>.last-banner {
+    display: flex;
+    justify-content: center;
+}
+
+.last-banner>.information-hours-tel span {
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 1em;
+    letter-spacing: 2px;
+}
+
+.last-nav>.information-hours-tel>.hours {
+    font-family: 'Ubuntu', sans-serif;
+    color: #858585;
+    font-size: 0.8em;
+}
+
+.last-nav>.information-hours-tel>.phone {
+    letter-spacing: 2px;
+}
+
+.last-nav>.links-wrapper {
+    margin-top: 30px;
+    margin-bottom: 20px;
+    width: 400px;
+}
+
+.last-nav>.social-media {
+    margin-top: 20px;
+    margin-bottom: 30px;
+    width: 300px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.last-nav>.social-media a {
+    font-size: 1.5em;
+    color: #cbcbcb;
+    transition: 0.5s;
+}
+
+.last-nav>.social-media a:hover {
+    color: #ce35a0;
+}
+
+.last-nav>.copyright {
+    font-size: 0.7em;
+    margin-bottom: 10px;
+    color: #858585;
+}
